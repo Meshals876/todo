@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* .navtxt{
+    color: chartreuse !important;
+} */
+/* .nav-item a:hover{
+    color: black !important;  
+    
+    background-color: aqua;
+} */
+ 
+body{
+    background-image: url('images/picture.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.frm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top:10%;
+    margin-right: 10%;     
+}
+
+
+.frm .usr h3{
+    font-weight:  bolder;
+
+}
+.frm .usr input{
+    width: 500px;
+}
+
+.frm .usr label{
+    font-weight: 300px;
+    font-size: larger;
+}
+
+@media screen and (max-width:480px) {
+
+    .frm{
+        flex-direction:column;
+    }
+    
+}

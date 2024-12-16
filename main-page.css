@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navtxt{
+    color: chartreuse !important;
+}
+.nav-item a:hover{
+    color: black !important;  
+    
+    background-color: aqua;
+}
+body{
+    background-image: url('images/picture.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main-content{
+    margin-top: 40px;
+    background-color: rgba(240, 255, 255, 0.188);
+    border: 1px solid rgba(240, 255, 255, 0.351);
+    border-radius: 10px;
+}
